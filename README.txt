@@ -1,3 +1,6 @@
+Small Javascript game that uses Spotify's API to allow users to guess what year a certain song was in their Wrapped playlist (or top 100 songs of the year playlist).
+Still in early development
+
 TODO:
 
 Short-term:
