@@ -13,7 +13,7 @@ const REDIRECT_URI = process.env.REDIRECT_URI;
 
 // req = request, res = response
 app.get('/', (req, res) => {
-    res.send('Hewwo Wowld!!! ~ OwO');
+    res.send('Basic Screen. Hello World');
 });
 
 const port = 8888;
