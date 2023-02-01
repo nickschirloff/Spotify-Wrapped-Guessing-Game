@@ -4,7 +4,7 @@ Still in early development
 TODO:
 
 Short-term:
-- Fix error with authentication not working correctly
+- (FIXED 1/31/23 - Under active-dev branch) Fix error with authentication not working correctly
 - Implement logic to get user's Spotify data
 
 Long-term:
