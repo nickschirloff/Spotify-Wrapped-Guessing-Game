@@ -14,11 +14,7 @@ const REDIRECT_URI = process.env.REDIRECT_URI;
 
 // req = request, res = response
 app.get('/', (req, res) => {
-<<<<<<< HEAD
     res.send('Basic Screen. Hello World');
-=======
-    res.send('Base Screen. Hello World.');
->>>>>>> Fixed authroization not sending correctly. Added some comments
 });
 
 const port = 8888;
