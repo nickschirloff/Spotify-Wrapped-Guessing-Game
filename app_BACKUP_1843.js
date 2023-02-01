@@ -5,7 +5,7 @@ const querystring = require('querystring');
 const axios = require('axios');
 
 const express = require('express');
-const { query } = require('express');
+const query = require('express');
 const app = express();
 
 const CLIENT_ID = process.env.CLIENT_ID;
@@ -15,7 +15,6 @@ const REDIRECT_URI = process.env.REDIRECT_URI;
 // req = request, res = response
 app.get('/', (req, res) => {
     res.send('Base Screen. Hello World.');
-
 });
 
 const port = 8888;
@@ -82,8 +81,4 @@ app.get('/callback', (req, res) => {
     .catch(error => {
         res.send(error);
     });
-<<<<<<< HEAD
 });
-=======
-});
->>>>>>> 683d1661785b1e4d0be9616df4ae698621678d8e

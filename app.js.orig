@@ -14,8 +14,11 @@ const REDIRECT_URI = process.env.REDIRECT_URI;
 
 // req = request, res = response
 app.get('/', (req, res) => {
+<<<<<<< HEAD
     res.send('Base Screen. Hello World.');
-
+=======
+    res.send('Basic Screen. Hello World');
+>>>>>>> 683d1661785b1e4d0be9616df4ae698621678d8e
 });
 
 const port = 8888;
